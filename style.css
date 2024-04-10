@@ -788,6 +788,16 @@ h2 {
         margin: 0px;
     }
 
+    .dropbtn {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+
+
     .navigation-bar a.active {
         /* background-color: black; */
 
@@ -849,7 +859,8 @@ h2 {
     .bg-image {
         background-image: url(imgsoso/unsplash__H1ZmUzwp9w.png);
         height: 50vh;
-        width: 100%;
+        width: 80vw;
+        background-size: cover;
         left: 0rem;
         background: rgba(0, 0, 0, 0.7, green, blue, alpha);
     }
@@ -878,9 +889,9 @@ h2 {
 
     .bg-img {
         background-image: url(imgsoso/image\ 666.png);
-        height: 40vh;
-        width: 80vw !important;
-        height: 50vh !important;
+        height: 50vh;
+        width: 80vw;
+        background-size: cover;
         left: 0rem;
         justify-content: center;
         align-items: center;
@@ -995,12 +1006,12 @@ h2 {
 
     .side-eye {
         background-image: url(imgsoso/side\ eye.png);
-        background-size: cover;
         background-repeat: no-repeat;
         position: relative;
         z-index: 1;
-        width: 60vw !important;
-        height: 50vh !important;
+        height: 50vh;
+        width: 80vw;
+        background-size: cover;
         border-radius: 15px;
     }
 
@@ -1036,8 +1047,9 @@ h2 {
     }
 
     .pills {
-        width: 60vw !important;
-        height: 50vh !important;
+        height: 50vh;
+        width: 80vw;
+        background-size: cover;
         border-radius: 15px;
         display: flex !important;
         align-items: center !important;
@@ -1085,7 +1097,7 @@ h2 {
 
     .section-four {
         background-color: #FCFCF3;
-        padding: 5rem 5rem;
+        padding: 5rem 2rem;
         display: flex !important;
         flex-direction: column;
         align-items: center !important;
@@ -1094,13 +1106,14 @@ h2 {
 
     .section-four h2 {
         text-align: center;
-        font-size: 5vw;
+        font-size: 4.5vw;
         font-weight: 600;
     }
 
     .section-four p {
         font-weight: bold;
         font-family: "Poppins", sans-serif;
+        font-size: 4vw;
 
     }
 
@@ -1130,7 +1143,10 @@ h2 {
 
 
     .section-five {
-        padding: 5rem;
+        padding: 5rem 2rem !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .cycle {
@@ -1146,17 +1162,17 @@ h2 {
 
     .cycle-img {
         position: absolute;
-        left: 6rem;
+        left: 10rem !important;
         z-index: 100;
         bottom: 14rem;
-        width: 20vw !important;
+        width: 22vw !important;
     }
 
     .overlays {
         margin-top: 5rem;
         background: rgba(246, 247, 212, 1);
         max-width: fit-content;
-        padding: 2rem;
+        padding:3rem;
         border-radius: 16px;
         font-family: "Figtree", sans-serif;
         color: rgba(26, 26, 26, 1);
@@ -1296,6 +1312,8 @@ h2 {
     .yoga {
         background-image: url(imgsoso/phamarcist.jfif);
         border-radius: 16px;
+        height: 50vh;
+        width: 80vw;
         background-size: cover;
     }
 
@@ -1348,7 +1366,7 @@ h2 {
 
     .section-eight {
         background-color: #FBFBF9;
-        padding: 5rem;
+        padding: 5rem 2rem;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -1364,13 +1382,12 @@ h2 {
     }
 
     .div-one h5 {
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin-bottom: 0px;
     }
 
     .div-one p {
-        font-size: 2vw;
-
+        font-size: 1.2vw;
     }
 
 
@@ -1382,8 +1399,8 @@ h2 {
         background-color: #F7F5DA;
         text-align: center;
         position: relative;
-        width: 60vw;
-        height: 20vh;
+        width: 80vw;
+        height: 50vh;
         padding-top: 2rem;
     }
 
@@ -1396,8 +1413,8 @@ h2 {
     }
 
     .section-nine img {
-        width: 60vw;
-
+        height: 50vh;
+        width: 80vw;
     }
 
     .section-nine p {
@@ -1444,13 +1461,10 @@ h2 {
 
 
     .p-last {
-        padding-top: 5rem;
+        padding-top: 20rem;
+        padding-bottom: 2rem;
         font-weight: 600;
         font-size: 2vw !important;
-    }
-
-    body {
-        overflow-x: hidden;
     }
 }
 
@@ -1528,8 +1542,9 @@ h2 {
 
     .bg-image {
         background-image: url(imgsoso/unsplash__H1ZmUzwp9w.png);
-        height: 50vh;
-        width: 100%;
+        height: 70vh;
+        width: 80vw;
+        background-size: cover;
         left: 0rem;
         background: rgba(0, 0, 0, 0.7, green, blue, alpha);
     }
@@ -1545,21 +1560,12 @@ h2 {
 
     }
 
-    .container .content {
-        /* position: absolute;
-        left: 2rem;
-        top: 6rem;
-        background: rgba(0, 0, 0, 0.5, green, blue, alpha);
-        color: black;
-        width: 70vw;
-        font-stretch: normal;
-        z-index: 1; */
-    }
 
     .bg-img {
         background-image: url(imgsoso/jam.png);
-        width: 50vw !important;
-        height: 60vh !important;
+        height: 70vh;
+        width: 80vw;
+        background-size: cover;
         left: 0rem;
         justify-content: center;
         align-items: center;
@@ -1678,15 +1684,16 @@ h2 {
         background-repeat: no-repeat;
         position: relative;
         z-index: 1;
-        width: 50vw !important;
-        height: 50vh !important;
+        height: 70vh;
+        width: 80vw;
+        background-size: cover;
         border-radius: 15px;
     }
 
     .heading-one {
         font-size: 5vw;
         line-height: 4vh;
-        padding-left: 1rem;
+        padding-left: 2rem;
     }
 
 
@@ -1709,14 +1716,15 @@ h2 {
         border-radius: 3.5px;
         text-align: center;
         position: relative;
-        top: 6rem;
-        left: 1rem;
+        top: 14rem;
+        left: 2rem;
         box-shadow: 8px 5px white;
     }
 
     .pills {
-        width: 50vw !important;
-        height: 50vh !important;
+        height: 70vh;
+        width: 80vw;
+        background-size: cover;
         border-radius: 15px;
         display: flex !important;
         align-items: center !important;
@@ -1749,22 +1757,22 @@ h2 {
 
 
     .bottle {
-        width: 20w;
-        height: 20vh !important;
+        width: 25w;
+        height: 25vh !important;
         padding: 0rem;
     }
 
     .three {
         text-align: center;
         right: 0rem;
-        top: 9rem;
+        top: 11rem;
         padding: 3px 1rem;
         width: 20vw !important;
     }
 
     .section-four {
         background-color: #FCFCF3;
-        padding: 5rem 5rem;
+        padding: 5rem 2rem;
         display: flex !important;
         flex-direction: column;
         align-items: center !important;
@@ -1773,12 +1781,13 @@ h2 {
 
     .section-four h2 {
         text-align: center;
-        font-size: 3.2vw;
+        font-size: 4.5vw;
     }
 
     .section-four p {
         font-weight: bold;
         font-family: "Poppins", sans-serif;
+        font-size: 3.5vw;
 
     }
 
@@ -1808,7 +1817,7 @@ h2 {
 
 
     .section-five {
-        padding: 5rem;
+        padding: 5rem 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1827,7 +1836,7 @@ h2 {
 
     .cycle-img {
         position: absolute;
-        left: 9rem;
+        left: 14rem;
         z-index: 100;
         bottom: 11rem;
         /* width:  20vw !important; */
@@ -1835,7 +1844,7 @@ h2 {
 
     .blues {
         top: 10rem;
-        left: 9rem;
+        left: 14rem;
         margin-bottom: 0rem !important;
     }
 
@@ -1843,7 +1852,7 @@ h2 {
         margin-top: 5rem;
         background: rgba(246, 247, 212, 1);
         max-width: fit-content;
-        padding: 2rem;
+        padding: 2rem 5rem;
         border-radius: 16px;
         font-family: "Figtree", sans-serif;
         color: rgba(26, 26, 26, 1);
@@ -1895,9 +1904,9 @@ h2 {
         background-image: url(imgsoso/hands.png);
         height: 60vh;
         width: 100%;
-        background-size: contain;
+        background-size: cover;
         overflow-x: hidden;
-        border-radius: 20px;
+        border-radius: 0px;
     }
 
     .touch::before {
@@ -1914,7 +1923,7 @@ h2 {
     .touch h2 {
         position: absolute;
         top: 7rem;
-        left: 2rem !important;
+        left: 4rem !important;
         color: rgba(26, 26, 26, 1);
         font-weight: 400;
         font-size: 3vw;
@@ -1922,10 +1931,10 @@ h2 {
 
     .touch p {
         width: 20vw;
-        font-size: 2.5vw;
+        font-size: 2vw;
         position: absolute;
-        top: 15rem;
-        left: 2rem !important;
+        top: 17rem;
+        left: 4rem !important;
         color: rgba(26, 26, 26, 1);
         font-weight: bold;
     }
@@ -2004,13 +2013,13 @@ h2 {
     .section-seven p {
         color: white;
         font-size: 2vw;
-        line-height: 2vh;
+        line-height: 2.5vh;
         z-index: 1;
         position: relative;
-        top: 10rem;
+        top: 17rem;
         text-align: left;
         right: 0rem;
-        padding-left: 1rem;
+        padding-left: 2rem;
         font-weight: 200;
         font-family: "PT", sans-serif;
     }
@@ -2018,7 +2027,7 @@ h2 {
     .clock {
         color: white;
         position: relative;
-        top: 10rem;
+        top: 17rem;
 
     }
 
@@ -2026,8 +2035,8 @@ h2 {
         display: flex;
         justify-content: left;
         align-items: center;
-        gap: 1rem;
-        padding-left: 1rem;
+        gap: .6rem;
+        padding-left: 2rem;
     }
 
     .section-eight {
@@ -2072,8 +2081,9 @@ h2 {
         background-color: #F7F5DA;
         text-align: center;
         position: relative;
-        width: 50vw;
-        height: 20vh;
+        height: 50vh;
+        width: 80vw;
+        background-size: cover;
         padding-top: 2rem;
     }
 
@@ -2086,7 +2096,9 @@ h2 {
     }
 
     .section-nine img {
-        width: 50vw;
+        height: 60vh;
+        width: 80vw;
+
 
     }
 
@@ -2133,7 +2145,8 @@ h2 {
 
 
     .p-last {
-        padding-top: 5rem;
+        padding-top: 30rem;
+        padding-bottom: 2rem;
         font-weight: 600;
         font-size: 2vw !important;
     }
